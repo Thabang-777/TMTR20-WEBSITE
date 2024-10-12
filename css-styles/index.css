@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(236, 240, 241);
+}
+button{
+  cursor: pointer;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+  background-color: rgb(44, 62, 80);
+}
+
+.logo-div{
+  margin-left: 30px;
+}
+.logo-image{
+  width: 83px;
+}
+
+.navigation{
+  margin-right: 30px;
+  justify-content: space-between;
+}
+.nav-button{
+  background-color: rgb(44, 62, 80);
+  color: rgb(236, 240, 241);
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
