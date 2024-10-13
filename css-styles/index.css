@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(236, 240, 241);
+  background-color: black;
   margin: 0px;
 }
 button{
@@ -42,7 +42,6 @@ p{
 .hero-section-image-div{
   height: 700px;
   width: 100%;
-  background-color: brown;
 }
 .hero-section-image{
   width: 100%;
@@ -63,4 +62,28 @@ p{
 .hero-text-2{
   font-size: 16px;
   width: 500px;
+}
+.about-us-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.about-us-text{
+  font-weight: bold;
+  font-size: 25px;
+}
+.about-us-text-2{
+  width: 800px;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.learn-more-button{
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
 }
