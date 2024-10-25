@@ -1,0 +1,74 @@
+.hero{
+  display: flex;
+  justify-content: center;
+}
+.about-hero-section-video-div{
+  display: flex;
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+.about-hero-video{
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(30%);
+}
+
+.about-hero-section-text{
+  position: absolute;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-hero-text-1{
+  font-size: 40px;
+  margin: 0px;
+}
+.about-hero-text-2{
+  font-size: 25px;
+  width: 680px;
+}
+
+.company-values{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.values{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.value-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+  border: 0.5px solid rgb(216,164,82);
+}
+.value{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.value-number{
+  position: absolute;
+  left: -65px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(216,164,82);
+  border: 3px solid rgb(216,164,82);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.value-description{
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  border-top: 0.5px solid white;
+  font-size: 17px;
+}
