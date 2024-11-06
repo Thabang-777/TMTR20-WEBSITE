@@ -1,3 +1,8 @@
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hero-section-image-div{
   height: 700px;
   width: 100%;
@@ -6,7 +11,7 @@
   width: 100%;
   height: 700px;
   object-fit: cover;
-  filter: brightness(55%);
+  filter: brightness(40%);
 }
 
 .hero-section-text{
@@ -41,7 +46,7 @@
 }
 
 .learn-more-button{
-  background-color: black;
+  background-color: transparent;
   color: rgb(236, 240, 241);
   font-weight: bold;
   font-size: 15px;
