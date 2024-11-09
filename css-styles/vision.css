@@ -11,10 +11,8 @@
   filter: brightness(28%);
 }
 .vision-hero-text{
-  font-size: 25px;
-  width: 640px;
-  margin-top: 15px;
-  text-align: center;
+  font-size: 22px;
+  width: 700px;
 }
 
 .goals-section-div{
@@ -22,34 +20,73 @@
   flex-direction: column;
   align-items: center;
 }
-.vision-text{
+.vision-text-button{
+  color: rgb(130, 124, 124);
+  background-color: transparent;
+  border: 2px solid rgb(164, 156, 156);
+  border-radius: 20px;
+  padding: 8px 30px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 0px;
+  margin-top: 50px;
+  cursor: default;
 }
 .visions{
-  display: grid;
+  display: flex;
+  justify-content: space-evenly;
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 20px;
+  border-top: 0.5px solid rgba(224, 224, 224, 0.335);
+  padding-bottom: 28px;
+  border-bottom: 0.5px solid rgba(224, 224, 224, 0.335);
 }
 .vision{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   font-size: 22px;
-  border: 0.5px solid rgb(216,164,82);
+  height: 100%;
+  background-color: transparent;
 }
 .division-goal{
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+.goals-button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 18px;
+  position: absolute;
+  left: -114px;
+  font-size: 18px;
+  padding: 4px 22px;
+  cursor: default;
+}
+.goals-image-div{
+  background-color: blueviolet;
+  height: 400px;
+  width: 330px;
+  margin-bottom: 30px;
+}
+.goals-image{
+  height: 400px;
+  width: 330px;
+  object-fit: cover;
 }
 .goal-explanation{
   display: flex;
-  width: 250px;
+  flex-direction: column;
+  width: 330px;
+  height: 120px;
+  padding: 10px;
   justify-content: center;
-  border-top: 0.5px solid white;
+  border: 0.5px solid white;
+  border-radius: 16px;
   font-size: 17px;
 }

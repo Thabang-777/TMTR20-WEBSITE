@@ -26,6 +26,12 @@
   border: none;
   font-weight: bold;
   font-size: 16px;
+  transition: all 0.2s;
+}
+.button-selected{
+  color: rgb(216,164,82);
+  font-size: 21px;
+  transition: all 0.2s;
 }
 .contact-button{
   border: 1px solid white;

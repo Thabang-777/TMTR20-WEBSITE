@@ -1,6 +1,5 @@
 .hero{
   display: flex;
-  justify-content: center;
 }
 .about-hero-section-video-div{
   display: flex;
@@ -18,25 +17,54 @@
 .about-hero-section-text{
   position: absolute;
   top: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0px;
+  padding: 10px 30px;
 }
 .about-hero-text-1{
-  font-size: 40px;
+  font-size: 34px;
   margin: 0px;
 }
 .about-hero-text-2{
-  font-size: 25px;
+  font-size: 22px;
   width: 680px;
-  margin-top: 15px;
 }
 
+
+.story{
+  padding: 50px 40px 0px;
+}
+.about-us-text-button{
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid rgb(216,164,82);
+  border-radius: 20px;
+  padding: 5px 20px;
+  background-color: transparent;
+  color: white;
+  cursor: default;
+}
+.story-header{
+  font-size: 30px;
+  width: 1250px;
+  font-weight: bold;
+}
+.story-text{
+  font-size: 22px;
+  margin-bottom: 30px;
+  width: 1400px;
+}
 .company-values{
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-top: 0.5px solid rgba(136, 132, 132, 0.3);
+  padding: 25px 0px;
+}
+.company-values-text{
+  font-size: 22px;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }
 .values{
   display: grid;

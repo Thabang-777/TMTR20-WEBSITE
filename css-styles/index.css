@@ -31,16 +31,21 @@
 .about-us-div{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 0px 40px;
 }
 .about-us-text{
+  background-color: transparent;
+  color: white;
+  font-size: 33px;
   font-weight: bold;
-  font-size: 25px;
+  border-radius: 20px;
+  margin: 0px;
+  cursor: default;
 }
 .about-us-text-2{
-  width: 800px;
+  width: 1300px;
   font-size: 22px;
   margin-bottom: 50px;
 }
@@ -61,3 +66,7 @@
   color: black;
 }
 
+.core-values-section{
+  border-top: 0.5px solid rgba(142, 142, 142, 0.64);
+  padding: 20px 40px;
+}
