@@ -38,19 +38,20 @@
   border: 2px solid rgb(216,164,82);
   border-radius: 20px;
   padding: 5px 20px;
+  margin-bottom: 20px;
   background-color: transparent;
   color: white;
   cursor: default;
 }
 .story-header{
   font-size: 30px;
-  width: 1250px;
+  width: 95%;
   font-weight: bold;
 }
 .story-text{
   font-size: 22px;
   margin-bottom: 30px;
-  width: 1400px;
+  width: 100%;
 }
 .company-values{
   display: flex;
@@ -64,7 +65,7 @@
   width: 800px;
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 .values{
   display: grid;

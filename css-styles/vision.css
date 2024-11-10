@@ -8,7 +8,7 @@
   position: relative;
   object-fit: cover;
   width: 100%;
-  filter: brightness(28%);
+  filter: brightness(25%);
 }
 .vision-hero-text{
   font-size: 22px;
@@ -69,7 +69,6 @@
   cursor: default;
 }
 .goals-image-div{
-  background-color: blueviolet;
   height: 400px;
   width: 330px;
   margin-bottom: 30px;
