@@ -44,7 +44,7 @@
   font-size: 25px;
   font-weight: bold;
   height: 100%;
-  border: 1px solid white;
+  border: 1px solid var(--secondary-color);
   border-radius: 20px;
   transition: all 0.2s;
 }
@@ -66,10 +66,10 @@
   position: relative;
   display: flex;
   justify-content: center;
-  color: white;
+  color: var(--secondary-color);
   font-size: 19px;
   font-weight: bold;
-  border: 1px solid white;
+  border: 1px solid var(--secondary-color);
   border-radius: 20px;
   transition: all 0.2s;
 }

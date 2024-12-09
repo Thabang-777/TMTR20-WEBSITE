@@ -29,21 +29,21 @@
   transition: all 0.2s;
 }
 .button-selected{
-  color: rgb(216,164,82);
+  color: var(--accent-color);
   font-size: 21px;
   transition: all 0.2s;
 }
 .contact-button{
-  border: 1px solid white;
+  border: 1px solid var(--secondary-color);
   border-radius: 20px;
   background-color: transparent;
-  color: white;
+  color: var(--secondary-color);
   font-weight: bold;
   font-size: 16px;
   padding: 5px 15px;
   transition: all 0.2s;
 }
 .contact-button:hover{
-  background-color: white;
-  color: black;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }

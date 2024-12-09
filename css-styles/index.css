@@ -37,7 +37,7 @@
 }
 .about-us-text{
   background-color: transparent;
-  color: white;
+  color: var(--secondary-color);
   font-size: 33px;
   font-weight: bold;
   border-radius: 20px;
@@ -52,16 +52,16 @@
 
 .learn-more-button{
   background-color: transparent;
-  color: rgb(236, 240, 241);
+  color: var(--secondary-color);
   font-weight: bold;
   font-size: 15px;
   padding: 10px 20px;
   border-style: solid;
-  border-color: rgb(236, 240, 241);
+  border-color: var(--secondary-color);
   border-radius: 20px;
   transition: background-color 0.5s ;
 }
 .learn-more-button:hover{
-  background-color: rgb(236, 240, 241);
-  color: black;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }

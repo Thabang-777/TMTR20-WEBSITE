@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css-styles/utils.css">
     <link rel="stylesheet" href="css-styles/header.css">
     <link rel="stylesheet" href="css-styles/footer.css">
+
+    <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/components.js"></script>
   </head>
   <body>
     <div class="hero-section">
@@ -14,7 +17,7 @@
         <img class="hero-section-image" src="images/cityscape-2.webp">
       </div>
 
-      <div class="header">
+      <!-- <div class="header">
         <div class="logo-div">
           <a href="index.html">
             <img class="logo-image" src="images/tmtr20-logo-lightgrey.png">
@@ -43,12 +46,14 @@
             </button>
           </a>
         </div>
-      </div>
-
+      </div> -->
+      <header-component></header-component>
       <div class="hero-section-text">
         <p class="hero-text-1">Building a Legacy, Shaping the Future</p>
         <p class="hero-text-2">Introducing TMTR20, a family-owned conglomerate committed to building a diverse portfolio of businesses that will shape the future. As we embark on this exciting journey, we aim to foster innovation, create opportunities, and leave a lasting impact across industries.</p>
-        <button class="learn-more-button">Discover</button>
+        <a href="vision.html">
+          <button class="learn-more-button">Discover</button>
+        </a>
       </div>
     </div>
 
@@ -66,7 +71,16 @@
         </a>
       </div>
     </div>
+<!-- 
+    <div>
+      <p>Future Ventures and Opportunities</p>
+      <p>
+        As a conglomerate, we are exploring opportunities in real estate, technology, retail, and sustainable development. Our goal is to create a diverse portfolio that caters to a wide range of industries, all driven by innovation and growth.
+      </p>
+    </div> -->
 
+    
+<!-- 
     <div class="footer">
       <div class="quicklinks-section">
         <p class="footer-headings">Quick links:</p>
@@ -149,7 +163,7 @@
           Services:
         </p>
       </div>
-    </div>
-    <script src="scripts/index.js"></script>
+    </div> -->
+    <footer-component></footer-component>
   </body>
 </html>
