@@ -4,7 +4,7 @@
 .about-hero-section-video-div{
   display: flex;
   position: relative;
-  height: 600px;
+  height: var(--hero-height);
   width: 100%;
 }
 .about-hero-video{
@@ -16,7 +16,7 @@
 
 .about-hero-section-text{
   position: absolute;
-  top: 150px;
+  top: var(--hero-text-height);
   padding: 10px 30px;
 }
 .about-hero-text-1{
@@ -27,8 +27,6 @@
   font-size: 22px;
   width: 680px;
 }
-
-
 .story{
   padding: 50px 40px 0px;
 }

@@ -37,6 +37,14 @@ class Header extends HTMLElement {
 };
 customElements.define("header-component", Header);
 
+class Hero extends HTMLElement {
+  constructor(){
+    super()
+    this.innerHTML = ``;
+  }
+};
+customElements.define("hero-section", Hero);
+
 class Footer extends HTMLElement {
   constructor(){
     super()

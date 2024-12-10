@@ -3,6 +3,9 @@
   --secondary-color: rgb(236, 240, 241);
   --tertiary-color: gray;
   --accent-color: rgb(216,164,82);
+
+  --hero-height: 75vh;
+  --hero-text-height: 30vh;
 }
 
 body{
