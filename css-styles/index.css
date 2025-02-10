@@ -1,24 +1,23 @@
 .hero-section{
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .hero-section-image-div{
+  display: flex;
   height: var(--hero-height);
   width: 100vw;
 }
 .hero-section-image{
-  width: 100vw;
+  position: relative;
   height: var(--hero-height);
   object-fit: cover;
+  width: 100vw;
   filter: brightness(40%);
 }
 
 .hero-section-text{
   position: absolute;
   top: var(--hero-text-height);
-  left: 3vw;
-  margin: 0px;
+  padding: 10px 30px;
 }
 .hero-text-1{
   font-size: 35px;

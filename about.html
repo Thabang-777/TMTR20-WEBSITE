@@ -13,7 +13,7 @@
     <script defer src="scripts/components.js"></script>
   </head>
   <body class="about.html">
-    <div class="hero-section-about">
+    <!-- <div class="hero-section-about">
       <div class="hero">
         <div class="about-hero-section-video-div">
           <video class="about-hero-video" autoplay loop muted>
@@ -21,36 +21,6 @@
           </video>
         </div>
   
-        <!-- <div class="header">
-          <div class="logo-div">
-            <a href="index.html">
-              <img class="logo-image" src="images/tmtr20-logo-lightgrey.png">
-            </a>
-          </div>
-    
-          <div class="navigation"> 
-            <a href="about.html">
-              <button class="nav-button js-about-button">About us</button>
-            </a>
-            <a href="vision.html">
-              <button class="nav-button">Our Vision</button>
-            </a>
-            <a href="leadership.html"> 
-              <button class="nav-button">Leadership</button>
-            </a>
-            <a href="news.html">
-              <button class="nav-button">News</button>
-            </a>
-          </div>
-
-          <div>
-            <a href="contact.html">
-              <button class="contact-button">
-                Contact us
-              </button>
-            </a>
-          </div>
-        </div> -->
         <header-component></header-component>
         
         <div class="about-hero-section-text">
@@ -68,7 +38,35 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
+    <hero-section>
+      <span slot="background-image">
+        <div class="hero-section-image-div">
+          <video class="hero-section-image" autoplay loop muted>
+            <source src="videos/family video.mp4">
+          </video>
+        </div>
+      </span>
+      <span slot="header-component">
+        <header-component></header-component>
+      </span>
+      <span slot="hero-text">
+        <div class="about-hero-section-text">
+          <p>Mision Statement</p>
+
+          <p class="about-hero-text-1">Shaping Tomorrow, One Step at a Time.</p>
+          
+          <p class="about-hero-text-2">
+            Our mission is to empower growth, nurture innovation, and create a legacy of excellence across a wide array of sectors. We are committed to ethical leadership and responsible business practices that benefit communities, stakeholders, and the environment.
+          </p>
+          <a href="news.html">
+            <button class="learn-more-button">
+              Discover
+            </button>
+          </a>
+        </div>
+      </span>
+    </hero-section>
 
     <div class="story">
        <button class="about-us-text-button">our story</button>

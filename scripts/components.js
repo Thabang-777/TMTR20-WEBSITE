@@ -37,10 +37,29 @@ class Header extends HTMLElement {
 };
 customElements.define("header-component", Header);
 
+const template = document.createElement("template");
+template.innerHTML = 
+` 
+    <div class="hero-section">
+      <div class="hero-section-image-div">
+        <slot name="background-image"></slot>
+      </div>
+
+      <slot name="header-component"></slot>
+   
+      <slot name="hero-text"></slot>
+    </div>
+
+    <div class="hero-section">
+
+
+    <div>
+    `;
 class Hero extends HTMLElement {
   constructor(){
     super()
-    this.innerHTML = ``;
+    const shadow = this.attachShadow({ mode : open})
+    shadow.append(template.content.cloneNode(true));
   }
 };
 customElements.define("hero-section", Hero);
@@ -68,8 +87,8 @@ class Footer extends HTMLElement {
         <div>
           <p>
             Contact us at: 
-            <a class="contact-link" href="tel:+27 (79) 329-7338">
-              +27 (79) 329-7338 
+            <a class="contact-link" href="tel:+27 (71) 691-5521">
+              +27 (71) 691-5521 
             </a>
           </p>
         </div>

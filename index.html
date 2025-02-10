@@ -12,44 +12,13 @@
     <script defer src="scripts/components.js"></script>
   </head>
   <body>
-    <div class="hero-section">
-
+    <!-- <div class="hero-section">
       <div class="hero-section-image-div">
         <img class="hero-section-image" src="images/cityscape-2.webp">
       </div>
 
-      <!-- <div class="header">
-        <div class="logo-div">
-          <a href="index.html">
-            <img class="logo-image" src="images/tmtr20-logo-lightgrey.png">
-          </a>
-        </div>
-  
-        <div class="navigation"> 
-          <a href="about.html">
-            <button class="nav-button">About us</button>
-          </a>
-          <a href="vision.html">
-            <button class="nav-button">Our Vision</button>
-          </a>
-          <a href="leadership.html"> 
-            <button class="nav-button">Leadership</button>
-          </a>
-          <a href="news.html">
-            <button class="nav-button">News</button>
-          </a>
-        </div>
-
-        <div>
-          <a href="contact.html">
-            <button class="contact-button">
-              Contact us
-            </button>
-          </a>
-        </div>
-      </div> -->
       <header-component></header-component>
-      
+   
       <div class="hero-section-text">
         <p class="hero-text-1">Building a Legacy, Shaping the Future</p>
         <p class="hero-text-2">Introducing TMTR20, a family-owned conglomerate committed to building a diverse portfolio of businesses that will shape the future. As we embark on this exciting journey, we aim to foster innovation, create opportunities, and leave a lasting impact across industries.</p>
@@ -57,7 +26,30 @@
           <button class="learn-more-button">Discover</button>
         </a>
       </div>
-    </div>
+    </div> -->
+
+    <hero-section>
+      <span slot="background-image">
+        <img class="hero-section-image" src="images/cityscape-2.webp">
+      </span>
+
+      <span slot="header-component">
+        <header-component></header-component>
+      </span>
+
+      <div class="hero-section-text">
+        <span slot="hero-text">
+          <p style="color: transparent;">this is just a placeholder</p>
+
+          <p class="hero-text-1">Building a Legacy, Shaping the Future</p>
+          <p class="hero-text-2">Introducing TMTR20, a family-owned conglomerate committed to building a diverse portfolio of businesses that will shape the future. As we embark on this exciting journey, we aim to foster innovation, create opportunities, and leave a lasting impact across industries.</p>
+          <a href="vision.html">
+            <button class="learn-more-button">Discover</button>
+          </a>
+        </span>
+      </div>
+
+    </hero-section>
 
     <div class="about-us-div">
       <div>
