@@ -110,37 +110,37 @@ class Footer extends HTMLElement {
             <div>
               <a href="https://www.instagram.com/tmtr_20/">
                 <button class="icon-buttons">
-                  <img class="connect-images" src="images/iconography/instagram-logo.png"> 
+                  <img width="32px" height="32px class="connect-images" src="images/iconography/instagram-logo.png"> 
                 </button>
               </a>
             </div>
             <div>
               <button class="icon-buttons">
-                <img class="connect-images" src="images/iconography/facebook.png"> 
+                <img width="32px" height="32px class="connect-images" src="images/iconography/facebook.png"> 
               </button>
             </div>
             <div>
               <a href="https://x.com/Tmtr20Social" target="_blank">
                 <button class="icon-buttons">
-                  <img class="connect-images" src="images/iconography/twitter.png"> 
+                  <img width="32px" height="32px class="connect-images" src="images/iconography/twitter.png"> 
                 </button>
               </a>
             </div>
             <div>
               <a href="https://www.youtube.com/@TMTR.20"> 
                 <button class="icon-buttons">
-                  <img class="connect-images" src="images/iconography/youtube.png"> 
+                  <img width="32px" height="32px class="connect-images" src="images/iconography/youtube.png"> 
                 </button>
               </a>
             </div>
             <div> 
               <button class="icon-buttons">
-                <img class="connect-images" src="images/iconography/whatsapp.png"> 
+                <img width="32px" height="32px class="connect-images" src="images/iconography/whatsapp.png"> 
               </button>
             </div>
             <div>
               <button class="icon-buttons">
-                <img class="connect-images" src="images/iconography/blog.png"> 
+                <img width="32px" height="32px" class="connect-images" src="images/iconography/blog.png"> 
               </button>
             </div>
           </div>
