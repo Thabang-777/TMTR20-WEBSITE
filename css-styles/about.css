@@ -3,7 +3,6 @@
 }
 .about-hero-section-video-div{
   display: flex;
-
   height: var(--hero-height);
   width: 100vw;
 }
