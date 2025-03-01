@@ -2,36 +2,38 @@ class Header extends HTMLElement {
   constructor(){
     super()
     this.innerHTML = `
-          <div class="header">
-      <div class="logo-div">
-        <a href="index.html">
-          <img class="logo-image" src="images/tmtr20-logo-lightgrey.png">
-        </a>
-      </div>
+    <header>
+      <nav class="header">
+          <div class="logo-div">
+            <a href="index.html">
+              <img width="83px" height="default" class="logo-image" src="images/tmtr20-logo-lightgrey.png" alt="images/tmtr20-logo-lightgrey.png">
+            </a>
+          </div>
 
-      <div class="navigation"> 
-        <a href="index.html">
-          <button class="nav-button">Home</button>
-        </a>
-        <a href="about.html">
-          <button class="nav-button">About us</button>
-        </a>
-        <a href="vision.html">
-          <button class="nav-button">Our Vision</button>
-        </a>
-        <a href="news.html">
-          <button class="nav-button js-news-button">News</button>
-        </a>
-      </div>
+          <div class="navigation"> 
+            <a href="index.html">
+              <button class="nav-button">Home</button>
+            </a>
+            <a href="about.html">
+              <button class="nav-button">About us</button>
+            </a>
+            <a href="vision.html">
+              <button class="nav-button">Our Vision</button>
+            </a>
+            <a href="news.html">
+              <button class="nav-button js-news-button">News</button>
+            </a>
+          </div>
 
-      <div>
-        <a href="contact.html">
-          <button class="contact-button">
-            Contact us
-          </button>
-        </a>
-      </div>
-    </div>
+          <div>
+            <a href="contact.html">
+              <button class="contact-button">
+                Contact us
+              </button>
+            </a>
+          </div>
+        </nav>
+    </header>
     `;
   };
 };
@@ -68,7 +70,7 @@ class Footer extends HTMLElement {
   constructor(){
     super()
     this.innerHTML = `
-          <div class="footer">
+    <footer class="footer">
       <div class="quicklinks-section">
         <p class="footer-headings">Quick links:</p>
         <div class="links-div">
@@ -110,37 +112,43 @@ class Footer extends HTMLElement {
             <div>
               <a href="https://www.instagram.com/tmtr_20/">
                 <button class="icon-buttons">
-                  <img width="100%" height="70%" class="connect-images" src="images/iconography/instagram-logo.png"> 
+                  <img width="100%" height="70%" class="connect-images" src="images/iconography/instagram-logo.png"
+                  alt="images/iconography/instagram-logo.png"> 
                 </button>
               </a>
             </div>
             <div>
               <button class="icon-buttons">
-                <img width="100%" height="70%" class="connect-images" src="images/iconography/facebook.png"> 
+                <img width="100%" height="70%" class="connect-images" src="images/iconography/facebook.png"
+                alt="images/iconography/facebook.png"> 
               </button>
             </div>
             <div>
               <a href="https://x.com/Tmtr20Social" target="_blank">
                 <button class="icon-buttons">
-                  <img width="100%" height="70%" class="connect-images" src="images/iconography/twitter.png"> 
+                  <img width="100%" height="70%" class="connect-images" src="images/iconography/twitter.png"
+                  alt="images/iconography/twitter.png"> 
                 </button>
               </a>
             </div>
             <div>
               <a href="https://www.youtube.com/@TMTR.20"> 
                 <button class="icon-buttons">
-                  <img width="100%" height="70%" class="connect-images" src="images/iconography/youtube.png"> 
+                  <img width="100%" height="70%" class="connect-images" src="images/iconography/youtube.png" 
+                  alt="images/iconography/youtube.png"> 
                 </button>
               </a>
             </div>
             <div> 
               <button class="icon-buttons">
-                <img width="100%" height="70%" class="connect-images" src="images/iconography/whatsapp.png"> 
+                <img width="100%" height="70%" class="connect-images" src="images/iconography/whatsapp.png"
+                alt="images/iconography/whatsapp.png"> 
               </button>
             </div>
             <div>
               <button class="icon-buttons">
-                <img width="100%" height="70%"  class="connect-images" src="images/iconography/blog.png"> 
+                <img width="100%" height="70%"  class="connect-images" src="images/iconography/blog.png"
+                alt="images/iconography/blog.png"> 
               </button>
             </div>
           </div>
@@ -152,7 +160,7 @@ class Footer extends HTMLElement {
           Services:
         </p>
       </div>
-    </div>
+    </footer>
     `
   };
 };
