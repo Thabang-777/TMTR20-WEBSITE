@@ -1,0 +1,12 @@
+# robots.txt for tmtr20.com
+
+User-agent: *
+Disallow:
+
+# Optional: block sensitive directories
+# Disallow: /private/
+# Disallow: /backup/
+# Disallow: /temp/
+
+# Sitemap location (can update later if needed)
+Sitemap: https://tmtr20.com/sitemap.xml
