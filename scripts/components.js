@@ -89,8 +89,8 @@ class Footer extends HTMLElement {
         <div>
           <p>
             Contact us at: 
-            <a class="contact-link" href="tel:+27 (71) 691-5521">
-              +27 (71) 691-5521 
+            <a class="contact-link" href="tel:+27 (65) 085-5004">
+              +27 (65) 085-5004 
             </a>
           </p>
         </div>
@@ -110,7 +110,7 @@ class Footer extends HTMLElement {
           <p class="footer-headings">Connect with us:</p>
           <div class="icon-grid">
             <div>
-              <a href="https://www.instagram.com/tmtr_20/">
+              <a target="_blank" href="https://www.instagram.com/tmtr20_/">
                 <button class="icon-buttons">
                   <img width="100%" height="70%" class="connect-images" src="images/iconography/instagram-logo.png"
                   alt="images/iconography/instagram-logo.png"> 
@@ -118,13 +118,15 @@ class Footer extends HTMLElement {
               </a>
             </div>
             <div>
-              <button class="icon-buttons">
-                <img width="100%" height="70%" class="connect-images" src="images/iconography/facebook.png"
-                alt="images/iconography/facebook.png"> 
-              </button>
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=61573764462367">
+                <button class="icon-buttons">
+                  <img width="100%" height="70%" class="connect-images" src="images/iconography/facebook.png"
+                  alt="images/iconography/facebook.png"> 
+                </button>
+              </a>
             </div>
             <div>
-              <a href="https://x.com/Tmtr20Social" target="_blank">
+              <a target="_blank" href="https://x.com/Tmtr20Social" target="_blank">
                 <button class="icon-buttons">
                   <img width="100%" height="70%" class="connect-images" src="images/iconography/twitter.png"
                   alt="images/iconography/twitter.png"> 
@@ -132,7 +134,7 @@ class Footer extends HTMLElement {
               </a>
             </div>
             <div>
-              <a href="https://www.youtube.com/@TMTR.20"> 
+              <a target="_blank" href="https://www.youtube.com/@TMTR20"> 
                 <button class="icon-buttons">
                   <img width="100%" height="70%" class="connect-images" src="images/iconography/youtube.png" 
                   alt="images/iconography/youtube.png"> 
@@ -140,10 +142,12 @@ class Footer extends HTMLElement {
               </a>
             </div>
             <div> 
-              <button class="icon-buttons">
-                <img width="100%" height="70%" class="connect-images" src="images/iconography/whatsapp.png"
-                alt="images/iconography/whatsapp.png"> 
-              </button>
+              <a target="_blank" href="https://chat.whatsapp.com/EybaoDuxFLiCIkjGF20CCM">
+                <button class="icon-buttons">
+                  <img width="100%" height="70%" class="connect-images" src="images/iconography/whatsapp.png"
+                  alt="images/iconography/whatsapp.png"> 
+                </button>
+              </a>
             </div>
             <div>
               <button class="icon-buttons">
@@ -155,10 +159,15 @@ class Footer extends HTMLElement {
         </div>
       </div>
 
-      <div class="services-section">
+      <div class="services-section quicklinks-section">
         <p class="footer-headings">
           Services:
         </p>
+        <div class="links-div">
+          <a class="links" href="about.html">Website Development</a>
+          <a class="links" href="vision.html">Software Development</a>
+          <a class="links" href="leadership.html">Real Estate Solutions</a>
+        </div>
       </div>
     </footer>
     `
